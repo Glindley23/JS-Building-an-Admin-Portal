@@ -8,7 +8,7 @@ let response1 = await fetch('http://localhost:3001/listBooks' , {
     body: null
 });
 
-let books = await response.json();
+let books = await response1.json();
 console.log(books);
 
 
